@@ -1,0 +1,6 @@
+total_epoch: 5, batch_size: 900, initial_lr 0.001, drop_lr: 0.5, drop_lr_per_epoch
+epoch 1, Consistency Loss 8.3805
+epoch 2, Consistency Loss 2.3649
+epoch 3, Consistency Loss 0.90334
+epoch 4, Consistency Loss 0.67504
+epoch 5, Consistency Loss 0.49788
