@@ -2,6 +2,9 @@
 
 #### This is a code implemention of the SCDA proposed in the manuscript "Source-Free Collaborative Domain Adaptation via Multi-Perspective Feature Enrichment for Functional MRI Analysis".
 
+![img](https://github.com/yqfang9199/SCDA/blob/main/img/fig_pipeline.jpg)
+Figure 1. Illustration of source-free collaborative domain adaptation (SCDA) framework, which performs source-to-target domain adaptation only based on a pre-trained source model and unlabeled target fMRI data.
+
 ### 1. Unsupervised Pretraining
 In this stage, we utilize 3,806 auxiliary rs-fMRI scans from ABIDE, REST-meta-MDD, and ADHD-200 to construct an fMRI feature encoder. The main idea is to encourage fMRI features of each subject generated from various augmentation perspectives to be consistent. Since these auxiliary fMRIs are acquired from multi-site studies that use different scanners and even from different diseases, this pretraining is expected to help produce a general feature encoder. Note that no label information of these data is used. 
 
